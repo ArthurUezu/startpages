@@ -15,11 +15,13 @@ h1{
     color: #0b1e38;
     text-transform: uppercase;
     margin-bottom: 20px;
+    border-bottom: 1px dashed #2f3774;
 }
 a{
     text-decoration: none;
     color:#0b1e38;
     font-size: 25px;
+    margin-left: 10px;
 }
 #container{
     padding: 10% 20%;
@@ -33,6 +35,7 @@ a{
     border: 1px solid #4888c8;
     height: 80%;
     background-color:  #7fc5dca6;
+    padding-bottom: 10px;
 }
 
 #left{
