@@ -17,7 +17,12 @@ h1{
     margin-bottom: 20px;
     border-bottom: 1px dashed #2f3774;
 }
-
+#clock{
+    font-size: 70px;
+    color:white;
+    text-align: center;
+    margin-top: 150px;
+}
 .panel{
     margin: 0 auto;
     border: 1px solid #4888c8;
