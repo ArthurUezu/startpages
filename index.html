@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <!-- XL >= 1200px ; LG >= 992px ; MD >= 768px ; SM >=576px -->
-        <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- custom web fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hahmlet&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Hahmlet&display=swap" rel="stylesheet">
          <!-- Bootstrap CSS -->
          <link rel="stylesheet" href="css/bootstrap.min.css">
          <link rel="stylesheet" href="style.css">
-
         <title>Startpage</title>
     </head>
     <body>
         <div id="container">
             <div id="left" class="panel">
                 <h1>Todo</h1>
-                <div class="todo">
-                    <h2>tarefa</h2>
-                    <p>chata</p>
+                <div id="todo">
+                    <textarea name="title" placeholder="title" id="title" rows="1"></textarea>
+                    <textarea name="content" placeholder="content" id="content" rows="3"></textarea>
+                    <button id="todo-button">add</button>
                 </div>
             </div>
             <div id="center" class="panel">
                 <h1>dashboard</h1>
-                <a href="https://classroom.google.com/u/0/h">classroom</a>
-                <a href="https://github.com/ArthurUezu">gitHub</a>
-                <a href="https://www.udemy.com/course/web-completo/learn/">udemy</a>
-                <a href="https://reddit.com">reddit</a>
-                <a href="https://web.whatsapp.com">zapzap</a>
-                <a href="https://www.youtube.com">youtube</a>
+                <a target="_blank" href="https://classroom.google.com/u/0/h">classroom</a>
+                <a target="_blank" href="https://github.com/ArthurUezu">gitHub</a>
+                <a target="_blank" href="https://www.udemy.com/course/web-completo/learn/">udemy</a>
+                <a target="_blank" href="https://reddit.com">reddit</a>
+                <a target="_blank" href="https://web.whatsapp.com">zapzap</a>
+                <a target="_blank" href="https://www.youtube.com">youtube</a>
             </div>
             <div id="right" class="panel">
                 <h2 id="clock"></h2>
@@ -38,5 +37,6 @@
             </div>
         </div>
         <script src="js/clock.js"></script>
+        <script src="js/todo.js"></script>
     </body>
 </html>
