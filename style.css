@@ -53,7 +53,7 @@ a{
     }
     
     #right{
-        height: 400px;
+        height: 500px;
         background: url(rightpanel.jpeg) left;
         background-size: cover;
         flex-basis: 260px;
